@@ -1,6 +1,9 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-
+if(!str)
+{
+	return null
+}
 	for(let i = 0; i < str.length - 1; i++)
 	{
 		let flag = false;
@@ -21,5 +24,5 @@ function firstNonRepeatedChar(str) {
 	return null
 	
 }
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
