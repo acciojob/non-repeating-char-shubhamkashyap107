@@ -12,7 +12,7 @@ function firstNonRepeatedChar(str) {
        {
         let char = str.charAt(i)
         // console.log(char)
-        if(!count[char])
+        if(!count[char])	
         {
             count[char] = 1
         }
