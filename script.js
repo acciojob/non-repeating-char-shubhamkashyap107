@@ -9,7 +9,7 @@ if(!str)
 		let flag = false;
 		for(let j = i + 1; j < str.length; j++)
 			{
-				if(str.chartAt(i) == str.charAt(j))
+				if(str.charAt(i) == str.charAt(j))
 				{
 					flag = true;	
 				}
